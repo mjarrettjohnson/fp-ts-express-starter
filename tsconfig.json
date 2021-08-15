@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "strictNullChecks": true,
+    "lib": ["ES2018"],
+    "target": "es6",
+    "allowJs": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "sourceMap": true,
+    "outDir": "dist",
+    "noImplicitAny": true,
+    "noUnusedLocals": true,
+    "alwaysStrict": true
+  },
+  "include": ["src", "decs.d.ts", "tools"],
+  "exclude": ["node_modules"]
+}
