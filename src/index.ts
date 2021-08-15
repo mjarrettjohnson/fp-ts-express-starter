@@ -8,9 +8,6 @@ import { createUserRepo } from "./repo/user_repo";
 import { createLogin } from "./routes/login/create";
 import { createSignup } from "./routes/signup/create";
 
-// create connection with database
-// note that it's not active database connection
-// TypeORM creates connection pools and uses them for your requests
 createConnection()
   .then(async (connection) => {
     // create express app
